@@ -115,12 +115,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 #content {
   /* set the display to flex and use the justify-content & align-items properties to center the text within the div*/
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   background: #fff;
   background:rgba(255,255,255,0.8);
@@ -134,7 +135,6 @@ body {
   padding: 0px 30px;
   width: 300px;
   height: 300px;
-  flex-direction: column;
 }
 
 #content p span {
@@ -142,21 +142,24 @@ body {
   font-weight: 600;
 }
 
-#button {
+#content2 {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   color: #fff;
   text-align: center;
   background: #195a90;
-  border-radius: 5px;
-  padding: 0px 10px;
-  width: 200px;
-  height: 50px;
+  border-radius: 10px;
+  padding: 0px 30px;
+  width: 300px;
+  height: 100px;
 }
 
+#content2 a {
+  color: #52c9cd;
+}
 
 
 /* ==========================================================================
